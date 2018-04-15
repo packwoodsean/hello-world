@@ -1,2 +1,2 @@
 This is a sentence.
-This is anotha sentence
+This is another sentence.
