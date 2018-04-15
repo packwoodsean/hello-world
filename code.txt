@@ -1,0 +1,19 @@
+public String withoutString(String base, String remove) {
+  int baseLength = base.length();
+  int removeLength = remove.length();
+  String baseLower = base.toLowerCase();
+  String removeLower = remove.toLowerCase();
+  String newBase = "";
+
+  for (int i = 0; i <= baseLength - removeLength; i++) {
+    if ( baseLower.substring(i, i + removeLength).equals(removeLower) ) {
+        i += removeLength;
+    }
+    else {
+      newBase += base.substring(i, i + 1);
+    }
+  }
+  return newBase;
+}
+    return small >= goal - (big * 5)
+      && small >= (goal % 5);
