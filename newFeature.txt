@@ -1,2 +1,2 @@
 This is my new branched feature.
-Changes.
+Changed.
